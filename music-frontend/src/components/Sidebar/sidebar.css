@@ -1,0 +1,79 @@
+
+.sidebar {
+    width: 16rem;
+    height: 100%;
+    color: white;
+    background:linear-gradient(rgb(27, 32, 19), rgb(17, 27, 1));
+    box-shadow: 0 0.4rem 0.7rem black;
+    position: relative; 
+} 
+
+.sidebar .logo {
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    letter-spacing: 1px;
+    text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: color 0.3s ease;
+    cursor: pointer;
+    color: darkgoldenrod;
+}
+
+.sidebar .logo:hover {
+    color: bisque;
+} 
+
+.logBtn {
+    padding: 0.2rem 0.5rem;
+    font-size: 1.3rem;
+    background: transparent;
+    color: white;
+    margin: 0 1rem;
+    color: darkkhaki;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.logBtn:hover {
+    color: rgb(81, 81, 117);
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin-top: 2rem;
+    padding-top: 3rem;
+}
+
+.sidebar ul li {
+    font-size: 1.3rem;
+    border-top: 1px solid rgb(112, 111, 110);
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 1rem 1rem;
+}
+
+.sidebar ul li a:hover {
+    background:linear-gradient(rgb(78, 100, 42), rgb(49, 61, 30), rgb(21, 33, 2));
+}
+
+.sidebar ul li:last-child a{
+    border-bottom: 1px solid rgb(112, 111, 110);
+} 
+
+.socials {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid black;
+}
+
+.socials p{
+    font-size: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+}

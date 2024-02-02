@@ -1,0 +1,102 @@
+
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.innerLogin {
+    text-align: center;
+    width: 27rem;
+    height: 70vh;
+    background: rgb(193, 192, 192); 
+    border: 2px solid gray;
+    border-radius: 1rem;
+    border: 2px solid burlywood;
+    box-shadow: 0  0.3rem 0.5rem beige;
+    background: transparent;
+    color: beige;
+}
+
+.login {
+    font-weight: 500;
+    margin: 1rem 1rem 0 1rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.log-label {
+    padding-top: 1rem; 
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.log-input {
+    height: 2.7rem;
+    width: 22rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+}
+
+.invalid-msg {
+    color: rgb(109, 13, 13);
+    margin-top: 0;
+    font-size: 1rem;
+    
+}
+
+.buttons {
+    width: 25rem;
+    margin: 1rem auto;
+}
+
+.buttons p {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+.continueBtn {
+    font-size: 1rem;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.7rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 70%;
+    margin-top: 1.1rem;
+    text-transform: uppercase;
+    background: linear-gradient(rgb(247, 206, 130), rgb(75, 44, 5));
+}
+
+.continueBtn:hover {
+    background: linear-gradient(rgb(75, 44, 5), rgb(247, 206, 130));
+}
+
+
+.createBtn {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    margin-left: 0.3rem;
+    cursor: pointer;
+    background-color: rgb(200, 223, 156);
+}
+
+.createBtn:hover {
+    background-color: rgb(215, 246, 159);
+}

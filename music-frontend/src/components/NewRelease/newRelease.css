@@ -1,0 +1,46 @@
+
+.newRelease {
+    padding: 1rem 0 0 0.3rem;
+    position: relative;
+}
+
+.heading {
+    color: antiquewhite;
+    text-transform: uppercase;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    margin: 0;
+}
+
+.allSongs {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-column-gap: 1.5rem;
+    display: flex;
+    padding: 0 1rem;
+    margin-left: 1rem;
+}
+
+.song {
+    border-radius: 0.3rem;
+    padding-top: 0.5rem;
+}
+
+.song img {
+    height: 10rem;
+    width: 10.5rem;
+    border-radius: 0.3rem;
+}
+
+.song .name,
+.song .track {
+    text-align: center;
+}
+
+.name {
+    padding-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.track {
+    font-size: 1.1rem;
+}

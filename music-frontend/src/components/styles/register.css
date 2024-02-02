@@ -1,0 +1,80 @@
+.registerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.innerContainer {
+    border: 1px solid burlywood;
+    min-height: 60vh;
+    width: 55rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 0.3rem 0.6rem beige;
+}
+
+.signUp {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin-bottom: 1.5rem;
+}
+
+.registerElements {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    margin: 0.7rem 0;
+}
+
+label {
+    color: rgb(253, 223, 186);
+    margin-bottom: 0.2rem;
+}
+
+.registration {
+    height: 2.5rem;
+    width: 22rem;
+    padding: 0.7rem;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    border-radius: 0.7rem;
+}
+
+.butons {
+    width: 44rem;
+    margin:2rem auto;
+}
+
+.registerBtn {
+    font-size: 1rem;
+    padding: 0.7rem 1rem;
+    width: 100%;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(rgb(247, 206, 130), rgb(75, 44, 5));
+}
+
+.registerBtn:hover {
+    background: linear-gradient(to right, rgb(75, 44, 5), rgb(247, 206, 130));
+}
+
+.btn {
+    margin-left: 1rem;
+    background: transparent;
+    font-size: 1rem;
+    color: rgb(241, 205, 113);
+    cursor: pointer;
+    border: none;
+}

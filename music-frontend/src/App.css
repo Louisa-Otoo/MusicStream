@@ -1,0 +1,25 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: beige;
+}
+
+.container {
+  min-height: 100vh;
+  max-width: 100vw;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 16rem 2fr;
+  grid-column-gap: 0;
+  grid-template-areas:
+      "sidebar nav", 
+      "sidebar main";
+  background:linear-gradient(rgb(78, 100, 42), rgb(49, 61, 30), rgb(21, 33, 2));
+  overflow: hidden;
+}

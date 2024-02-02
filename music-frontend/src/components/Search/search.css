@@ -1,0 +1,22 @@
+.main {
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem 0 0 2rem;
+} 
+
+.start {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.main-input {
+    height: 2.5rem;
+    width: 30rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    margin: 1rem 0 2rem 0;
+}
